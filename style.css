@@ -6,10 +6,7 @@
 
 body{
     font-family: 'outfit', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: auto;
+ 
 }
 
 .container{
@@ -17,19 +14,16 @@ body{
     height: 100vh;
     background:  hsl(212, 45%, 89%);
     display: flex;
-    flex-direction: column;
-    align-items: center;
  
 }
 
-.qr-card{
+.qr-holder{
     width: 100%;
     max-width: 400px;
     background: hsl(0, 0%, 100%);
     padding: 10px;
     border-radius: 15px;
     text-align: center;
-    align-items: center;
     margin-top: 25px;
 }
 
@@ -38,6 +32,7 @@ img{
     width: 100%;
     max-width: 300px;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 @media screen and (min-width: 768px) {
